@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lifeskillsv20">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Blunge"></activity>
+        <activity android:name=".Side_hop" />
+        <activity android:name=".squats" />
+        <activity android:name=".Diamond" />
+        <activity android:name=".Triceps_dips" />
+        <activity android:name=".Arm_raises" />
+        <activity android:name=".Cold" />
+        <activity android:name=".stomachache" />
+        <activity android:name=".headache" />
+        <activity android:name=".chocking" />
+        <activity android:name=".cuts" />
+        <activity android:name=".First_Aid" />
+        <activity android:name=".NZ_health" />
+        <activity android:name=".Burns" />
+        <activity android:name=".Basic_relief" />
+        <activity android:name=".CustomSkills" />
+        <activity android:name=".brandy" />
+        <activity android:name=".ginger" />
+        <activity android:name=".potato" />
+        <activity android:name=".mush" />
+        <activity android:name=".sweet" />
+        <activity android:name=".beef" />
+        <activity android:name=".naan" />
+        <activity android:name=".butter" />
+        <activity android:name=".chapathi" />
+        <activity android:name=".barbecue" />
+        <activity android:name=".lamb" />
+        <activity android:name=".cheese" />
+        <activity android:name=".shrimp" />
+        <activity android:name=".chow" />
+        <activity android:name=".kung" />
+        <activity android:name=".CustomSkills" />
+        <activity android:name=".CreateSkill" />
+        <activity android:name=".avocado" />
+        <activity android:name=".easter" />
+        <activity android:name=".carrot" />
+        <activity android:name=".tofu_padding" />
+        <activity android:name=".dumplings" />
+        <activity android:name=".Egg_pancakes" />
+        <activity android:name=".Upma" />
+        <activity android:name=".Dosa" />
+        <activity android:name=".biriyani" />
+        <activity android:name=".eggfriedrice" />
+        <activity android:name=".paneer" />
+        <activity android:name=".Health" />
+        <activity android:name=".Leg_workout" />
+        <activity android:name=".Arms_workout" />
+        <activity android:name=".wide_arm_push_ups" />
+        <activity android:name=".push_ups" />
+        <activity android:name=".Jumping_Jacks" />
+        <activity android:name=".ChestWorkouts" />
+        <activity android:name=".workouts" />
+        <activity android:name=".Indianlist" />
+        <activity android:name=".Heating" />
+        <activity android:name=".BusNetwork" />
+        <activity android:name=".RailService" />
+        <activity android:name=".Earthquake" />
+        <activity android:name=".fireandemergency" />
+        <activity android:name=".Homesafety" />
+        <activity android:name=".Parking" />
+        <activity android:name=".SpeedLimits" />
+        <activity android:name=".Roundabouts" />
+        <activity android:name=".publictransport" />
+        <activity android:name=".drivingtips" />
+        <activity android:name=".Timetables" />
+        <activity android:name=".Transport" />
+        <activity android:name=".Chinesedinner" />
+        <activity android:name=".Kiwidinner" />
+        <activity android:name=".Indiandinner" />
+        <activity android:name=".Chineselunch" />
+        <activity android:name=".Kiwilunch" />
+        <activity android:name=".IndianLunch" />
+        <activity android:name=".DinnerRecipie" />
+        <activity android:name=".LunchRecipie" />
+        <activity android:name=".KiwiRecipie" />
+        <activity android:name=".ChineseRecipie" />
+        <activity android:name=".IndianRecipie" />
+        <activity android:name=".BreakfastRecipe" />
+        <activity android:name=".cooking" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

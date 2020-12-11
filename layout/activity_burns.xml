@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Burns">
+
+
+    <ImageView
+        android:id="@+id/burns_home_logo"
+        android:layout_width="112dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:contentDescription="@string/life_skills_logo"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/life_skills_logo_1" />
+
+    <TextView
+        android:id="@+id/burns_text1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Burns"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/burns_home_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toEndOf="@+id/burns_home_logo"
+        app:layout_constraintTop_toTopOf="@+id/burns_home_logo" />
+
+
+    <TextView
+        android:id="@+id/burns_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.350" />
+
+    <ScrollView
+        android:id="@+id/scrollburns"
+        android:layout_width="409dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599">
+
+        <TextView
+            android:layout_width="401dp"
+            android:layout_height="235dp"
+            android:text="1. Remove the heat source from the patient, or the patient from the heat source, whichever is easiest and safest.
+                             2.Immediately cool the injured area for a minimum of 20 minutes using cool running water from a tap or shower. In the absence of water use any cool clean fluid such as beer or soft drink.
+                                           3.A first aid burn gel may be applied, but this should be after cooling with water (as above), provided water is available.
+                                            4.If any clothing is wet with hot liquid or affected by a chemical splash, remove it quickly and carefully.
+5.Remove any tight clothing, watches, rings or jewellery from the injured area, if possible, because of the risk of swelling. "
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.706" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/burns_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More about this:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <TextView
+        android:id="@+id/linkburns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burns_link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+    <ImageView
+        android:id="@+id/imageView_burns_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/burn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/burns_text1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias=".005"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Button
+        android:id="@+id/burns_back"
+        android:layout_width="153dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="25sp"
+        android:background="@color/red"
+        android:text="health"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/burnshomeicon"
+        android:layout_width="102dp"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:contentDescription="@string/life_skills_logo"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986"
+        app:srcCompat="@drawable/homeicon2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChestWorkouts">
+
+    <ImageView
+        android:id="@+id/imageViewlogo123"
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:contentDescription="@string/life_skills_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/life_skills_logo_1"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/ChestText1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Chest Workouts"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewlogo123"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toEndOf="@+id/imageViewlogo123"
+        app:layout_constraintTop_toTopOf="@+id/imageViewlogo123" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="370dp"
+        android:layout_marginBottom="20sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.850"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewlogo123"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Jumpingjacks1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorCards"
+                    android:orientation="horizontal"
+                    android:padding="10sp">
+
+                    <ImageView
+                        android:id="@+id/chestimage2"
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        android:contentDescription="Jumping Jacks"
+                        app:srcCompat="@drawable/jumpingj" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/chesttext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25sp"
+                            android:layout_marginLeft="25sp"
+                            android:layout_marginTop="25dp"
+                            android:text="Jumping Jacks"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pushups2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorCards"
+                    android:orientation="horizontal"
+                    android:padding="10sp">
+
+                    <ImageView
+                        android:id="@+id/chestimage3"
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        android:contentDescription="push-ups"
+                        app:srcCompat="@drawable/pushups" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/chesttext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25sp"
+                            android:layout_marginLeft="25sp"
+                            android:layout_marginTop="25dp"
+                            android:textStyle="bold"
+                            android:text="Push-Ups"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/wide_arm_pushups3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorCards"
+                    android:orientation="horizontal"
+                    android:padding="10sp">
+
+                    <ImageView
+                        android:id="@+id/chestimage4"
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        android:contentDescription="Wide-Arm-Push-Ups"
+                        app:srcCompat="@drawable/pushup" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/chesttext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25sp"
+                            android:layout_marginLeft="25sp"
+                            android:layout_marginTop="25dp"
+                            android:textStyle="bold"
+                            android:text="Wide Arm Push-Ups"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <ImageView
+        android:id="@+id/chest_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/workouts1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ChestText1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias=".000"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="134dp" />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="153dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="25sp"
+        android:background="@color/colorCards"
+        android:text="Workouts"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/chesthomeicon"
+        android:layout_width="102dp"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:contentDescription="@string/life_skills_logo"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986"
+        app:srcCompat="@drawable/homeicon2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

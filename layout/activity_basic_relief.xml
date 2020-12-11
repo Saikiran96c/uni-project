@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basic_relief">
+    <ImageView
+        android:id="@+id/basic_relief_home_icon"
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:contentDescription="@string/life_skills_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/life_skills_logo_1"
+        android:focusable="true" />
+
+
+    <TextView
+        android:id="@+id/basic_relief_text1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Basic Relief"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/basic_relief_home_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintVertical_bias=".5"
+        app:layout_constraintStart_toEndOf="@+id/basic_relief_home_icon"
+        app:layout_constraintTop_toTopOf="@+id/basic_relief_home_icon" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="458dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basic_relief_home_icon"
+        app:layout_constraintVertical_bias="0.795">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cold"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_margin="10sp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorCards"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview_cold"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cold" />
+
+                <TextView
+                    android:id="@+id/text_cold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Cold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/headache"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_margin="10sp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorCards"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview_headache"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:src="@drawable/headache" />
+
+                <TextView
+                    android:id="@+id/text_headache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Headache"
+                    android:backgroundTint="@color/red"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/stomachache"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_margin="10sp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorCards"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview_stomachache"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:padding="10dp"
+                    android:src="@drawable/stomachpain" />
+
+                <TextView
+                    android:id="@+id/text_stomachache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Stomachache"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_Br"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/relief"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/basic_relief_text1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias=".1"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="134dp" />
+    <Button
+        android:id="@+id/basic_relief_back_button"
+        android:layout_width="153dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="25sp"
+        android:background="@color/red"
+        android:text="health"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/basicreliefhomeicon"
+        android:layout_width="102dp"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:contentDescription="@string/life_skills_logo"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986"
+        app:srcCompat="@drawable/homeicon2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
